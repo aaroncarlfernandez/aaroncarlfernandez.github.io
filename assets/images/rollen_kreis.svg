@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   width="120px"
+   height="120px"
+   viewBox="0 0 120 120"
+   xml:space="preserve"
+   id="svg8"
+   sodipodi:docname="picto_cercle.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata14"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs12" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1600"
+   inkscape:window-height="802"
+   id="namedview10"
+   showgrid="false"
+   inkscape:zoom="1.9666667"
+   inkscape:cx="-100.67797"
+   inkscape:cy="62.202918"
+   inkscape:window-x="0"
+   inkscape:window-y="27"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Calque_1" />
+<g
+   id="Calque_1">
+	<path
+   fill="#232323"
+   d="M60.125,118.145c-32.072,0-58.729-26.103-58.729-58.176S27,1.792,59,1.792v6   c-28,0-51.604,23.402-51.604,52.167c0,28.765,23.684,52.186,52.447,52.186c28.766,0,52.447-23.145,52.447-52.145h6   C118.291,92,92.199,118.145,60.125,118.145z"
+   id="path2" />
+	<path
+   fill="#7A7A7A"
+   d="M118.291,60h-6C112.291,31,88,7.792,59,7.792v-6C92,1.792,118.291,28,118.291,60z"
+   id="path4"
+   style="fill:#232323;fill-opacity:0.70588237" />
+</g>
+<g
+   id="photo">
+</g>
+</svg>

@@ -1,10 +1,616 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-	<title>Sample</title>
-</head>
-<body>
-	Hello World!
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-</body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+
+    <!--  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+    <!-- add icon link -->
+    <link rel = "icon" href ="./assets/images/alien.png" type = "image/x-icon"> 
+
+    <title>AARON CARL | CV</title>
+
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
+
+    <div>
+      <div>
+        <div>
+          <nav class="fixed-bottom bg-grey font-weight-bold d-flex justify-content-center navbar navbar-expand-lg">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navCollapse">
+              <i class="fa fa-bars fa-lg txt-green"></i>
+            </button>
+            <div id="navCollapse" class="collapse navbar-collapse">
+              <ul class="mx-auto navbar-nav">
+                <li class="nav-item"><a lang="de" class="nav-link text-center ml-2 mr-2" href="#studies">Ausbildung</a></li>
+                <li class="nav-item"><a lang="de" class="nav-link text-center ml-2 mr-2" href="#expe">Berufserfahrung</a></li>
+                <li class="nav-item"><a lang="de" class="nav-link text-center ml-2 mr-2" href="#skills">Kentnisse</a></li>
+                <li class="nav-item"><a lang="de" class="nav-link text-center ml-2 mr-2" href="#publikation">Veröffentlichtungen</a></li>
+                <li class="nav-item"><a lang="de" class="nav-link text-center ml-2 mr-2" href="#portfeuille">Portefeuille</a></li>
+                <li class="nav-item"><a lang="de" class="nav-link text-center ml-2 mr-4" href="#kontakte">Kontakt</a></li>
+
+                <li class="nav-item"><a lang="en" class="nav-link text-center ml-2 mr-2" href="#studies">Education</a></li>
+                <li class="nav-item"><a lang="en" class="nav-link text-center ml-2 mr-2" href="#expe">Experience</a></li>
+                <li class="nav-item"><a lang="en" class="nav-link text-center ml-2 mr-2" href="#skills">Skills</a></li>
+                <li class="nav-item"><a lang="en" class="nav-link text-center ml-2 mr-2" href="#publikation">Publications</a></li>
+                <li class="nav-item"><a lang="en" class="nav-link text-center ml-2 mr-2" href="#portfeuille">Portfolio</a></li>
+                <li class="nav-item"><a lang="en" class="nav-link text-center ml-2 mr-2" href="#kontakte">Contact</a></li>
+
+                <li class="nav-item text-center">
+                  <div id="lang_selector" class="language-dropdown">
+                    <label for="toggle" class="lang-flag lang-en">
+                      <span class="flag"></span>
+                    </label>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </nav> 
+        </div>
+
+
+        <div id="landing-page" class="bg-grey-op-09">
+            <div class="container-main flex-center">
+              <div class="container-profil">
+                <div class="rounded-circle circle-profil flex-center">
+                  <img class="rounded-circle profil-picture" src="./assets/images/profile.jpg" alt="Profile picture of Aaron Carl Fernandez"/>
+                </div>
+                <h1 class="txt-green text-center pt-2">AARON CARL TRINIDAD FERNANDEZ</h1>
+                <h3 class="text-center"></h3>
+              </div>
+            </div>
+        </div>
+
+        <section id="studies" class="container-titel-links">
+          <div class="container-titel">
+            <div class="titel-kasten">
+              <img class="kreis-animation" src="./assets/images/rollen_kreis.svg" alt="Rolling Circle"/>
+              <img class="titel-ikone" src="./assets/images/Ausbildung_Ikone.svg" alt="Education Icon"/>
+            </div>
+            <h4 lang="de" class="font-weight-bold mt-2">Ausbildung</h4>
+            <h4 lang="en" class="font-weight-bold mt-2">Education</h4>
+          </div>
+
+          <div class="container-content bg-grey-op-095">
+            <div class="container-date">
+              <div class="date-box text-center">
+                  <span class="font-weight-bold text-light">2017 - 2019</span>
+                    <h5 class="text-uppercase font-weight-bold txt-green mb-0">Masters of Science in Computer Science</h5>
+                    <h6 class="font-weight-bold text-light">Mapua University</h6>
+                    <span class="font-weight-bold txt-grey">Grade: 1.1 / 1.0</span>
+              </div>
+
+              <div class="date-box text-center">
+                  <span class="font-weight-bold text-light">2007 - 2011</span>
+                  <h5 class="text-uppercase font-weight-bold txt-green mb-0">Bachelors of Science in Information Technology</h5>
+                  <h6 class="font-weight-bold text-light">San Beda College - Alabang</h6>
+                  <span class="font-weight-bold txt-grey">Grade: 1.8 / 1.0</span>
+              </div>
+
+              <div class="date-box text-center">
+                  <span class="font-weight-bold text-light">2004 - 2007</span>
+                  <h5 class="text-uppercase font-weight-bold txt-green mb-0">Secondary School - Electronics Technology</h5>
+                  <h6 class="font-weight-bold text-light">Don Bosco Technical Institute</h6>
+                  <span class="font-weight-bold txt-grey">Grade: 86.72 / 100</span>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="expe" class="container-titel-rechts">
+        <div  class="container-titel">
+            <div class="titel-kasten">
+                <img class="kreis-animation" src="./assets/images/rollen_kreis.svg" alt="Rolling Circle"/>
+                <img class="titel-ikone" src="./assets/images/Erfahrung_Ikone.svg" alt="Experience Icon"/>
+            </div>
+            <h4 lang="de" class="font-weight-bold mt-2">Berufserfahrung</h4>
+            <h4 lang="en" class="font-weight-bold mt-2">Work Experience</h4>
+        </div>
+
+        <div class="container-content bg-grey-op-095">
+          <div class="container-date">
+
+            <div class="date-box text-center">
+              <span lang="de" class="font-weight-bold text-light">15 Oktober 2018 - Präsenz</span>
+              <span lang="en" class="font-weight-bold text-light">15 October 2018 - Present</span>
+              <h5 class="text-uppercase font-weight-bold txt-green mb-0">Infosys Limited</h5>
+              <h6 class="font-weight-bold text-light">Technology Lead</h6>
+              <span lang="de" class="font-weight-bold txt-grey">Manila, Philippinen</span>
+              <span lang="en" class="font-weight-bold txt-grey">Manila, Philippines</span>
+            </div>
+
+            <div class="date-box text-center">
+              <span lang="de" class="font-weight-bold text-light">05 Januar 2015 - 30 September 2018</span>
+              <span lang="en" class="font-weight-bold text-light">05 January 2015 - 30 September 2018</span>
+              <h5 class="text-uppercase font-weight-bold txt-green mb-0">IT Managers, Inc.</h5>
+              <h6 class="font-weight-bold text-light">IT Consultant</h6>
+              <span lang="de" class="font-weight-bold txt-grey">Manila, Philippinen</span>
+              <span lang="en" class="font-weight-bold txt-grey">Manila, Philippines</span>
+                      
+            </div>
+
+            <div class="date-box text-center">
+              <span lang="de" class="font-weight-bold text-light">01 Juli 2011 - 31 Dezember 2014</span>
+              <span lang="en" class="font-weight-bold text-light">01 July 2011 - 31 December 2014</span>
+              <h5 class="text-uppercase font-weight-bold txt-green mb-0">Bank of the Philippine Islands</h5>
+              <h6 class="font-weight-bold text-light">Senior IT Specialist</h6>
+              <span lang="de" class="font-weight-bold txt-grey">Manila, Philippinen</span>
+              <span lang="en" class="font-weight-bold txt-grey">Manila, Philippines</span> 
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="container-titel-links">
+        <div class="container-titel">
+          <div class="titel-kasten">
+            <img class="kreis-animation" src="./assets/images/rollen_kreis.svg" alt="Rolling Circle"/>
+            <img class="titel-ikone" src="./assets/images/Kentnisse_Ikone.svg" alt="Skills Icon"/>
+          </div>
+          <h4 lang="de" class="font-weight-bold mt-2">Technische Kentnisse</h4>
+          <h4 lang="en" class="font-weight-bold mt-2">Technical Skills</h4>
+        </div>
+
+        <div class="container-content bg-grey-op-095">
+          <div class="skills-container">
+
+            <div class="logo-skill flex-center">
+              <i class="devicon-html5-plain icon"></i>
+              <div class="text-icon font-weight-bold">HTML5</div>
+            </div>
+
+            <div class="logo-skill flex-center">
+              <i class="devicon-css3-plain icon"></i>
+              <div class="text-icon font-weight-bold">CSS3</div>
+            </div>
+
+            <div class="logo-skill flex-center">
+              <i class="devicon-bootstrap-plain icon"></i>
+              <div class="text-icon font-weight-bold">BOOTSTRAP</div>
+            </div>
+
+            <div class="logo-skill flex-center">
+              <i class="devicon-javascript-plain icon"></i>
+              <div class="text-icon font-weight-bold">JAVASCRIPT</div>
+            </div>
+
+            <div class="logo-skill flex-center">
+              <i class="devicon-java-plain icon"></i>
+              <div class="text-icon font-weight-bold">JAVA</div>
+            </div>
+
+            <div class="logo-skill flex-center">
+              <i class="devicon-python-plain icon"></i>
+              <div class="text-icon font-weight-bold">PYTHON</div>
+            </div>
+
+            <div class="logo-skill flex-center">
+              <i class="devicon-mongodb-plain-wordmark icon"></i>
+              <div class="text-icon font-weight-bold">MONGODB</div>
+            </div>
+
+            <div class="logo-skill flex-center">
+              <i class="devicon-nodejs-plain icon"></i>
+              <div class="text-icon font-weight-bold">NODEJS</div>
+            </div>
+
+            <div class="logo-skill flex-center">
+              <i class="devicon-express-original icon"></i>
+              <div class="text-icon font-weight-bold">EXPRESS</div>
+            </div>
+
+            <div class="logo-skill flex-center">
+              <i class="devicon-react-original icon"></i>
+              <div class="text-icon font-weight-bold">REACT</div>
+            </div>
+
+            <div class="logo-skill flex-center">
+              <i class="devicon-angularjs-plain icon"></i>
+              <div class="text-icon font-weight-bold">ANGULARJS</div>
+            </div>
+
+            <div class="logo-skill flex-center">
+              <i class="devicon-django-plain icon"></i>
+              <div class="text-icon font-weight-bold">DJANGO</div>
+            </div>
+
+            <div class="logo-skill flex-center">
+              <i class="devicon-flask-original icon"></i>
+              <div class="text-icon font-weight-bold">FLASK</div>
+            </div>
+
+            <div class="logo-skill flex-center">
+              <i class="fab fa-npm icon"></i>
+              <div class="text-icon font-weight-bold">NPM</div>
+            </div>
+
+            <div class="logo-skill flex-center">
+              <i class="devicon-git-plain icon"></i>
+              <div class="text-icon font-weight-bold">GIT</div>
+            </div>
+
+            <div class="logo-skill flex-center">
+              <i class="devicon-github-plain icon"></i>
+              <div class="text-icon font-weight-bold">GITHUB</div>
+            </div>
+
+            <div class="logo-skill flex-center">
+              <i class="devicon-gitlab-plain icon"></i>
+              <div class="text-icon font-weight-bold">GITLAB</div>
+            </div>
+
+            <div class="logo-skill flex-center">
+              <i class="devicon-bitbucket-original-wordmark icon"></i>
+              <div class="text-icon font-weight-bold">BITBUCKET</div>
+            </div>
+
+            <div class="logo-skill flex-center">
+              <i class="devicon-intellij-plain icon"></i>
+              <div class="text-icon font-weight-bold">INTELLIJ</div>
+            </div>
+
+            <div class="logo-skill flex-center">
+              <i class="devicon-pycharm-plain icon"></i>
+              <div class="text-icon font-weight-bold">PYCHARM</div>
+            </div>
+
+            <div class="logo-skill flex-center">
+              <i class="devicon-visualstudio-plain icon"></i>
+              <div class="text-icon font-weight-bold">VISUAL STUDIO CODE</div>
+            </div>
+
+            <div class="logo-skill flex-center">
+              <i class="devicon-jupyter-plain-wordmark icon"></i>
+              <div class="text-icon font-weight-bold">JUPYTER</div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="publikation" class="container-titel-rechts">
+        <div class="container-titel">
+          <div class="titel-kasten">
+            <img class="kreis-animation" src="./assets/images/rollen_kreis.svg" alt="Rolling Circle"/>
+            <img class="titel-ikone" src="./assets/images/Forschungen_Ikone.svg" alt="Publication Icon"/>
+          </div>
+          <h4 lang="de" class="font-weight-bold mt-2">Verföffentlichungen</h4>
+          <h4 lang="en" class="font-weight-bold mt-2">Publications</h4>
+        </div>
+
+        <div class="container-content bg-grey-op-095">
+          <div class="container-date">
+            <div id="loader"></div>
+              <div id="soup-container">
+                <div id="segments">
+                </div>
+                <div id="soup-nav">
+                  <span id="soup-prev"><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i></span>
+                  <span id="soup-next"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></span>
+                </div>
+            </div>
+            <div id="publikationCarouselIndicator" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="info-box">
+                    <h2 class="text-center txt-green mt-4">The Theory of Automata in Natural Language Processing</h2>
+                    <p class="text-center txt-grey mb-0">
+                      <a href="https://www.researchgate.net/publication/342159403_Survey_of_the_Theory_of_Automata_in_Natural_Language_Processing" target="_blank"><i class="fab fa-researchgate m-2 fa-lg"></i></a>
+                    </p>
+                    <div class="info-item">
+                      <p class="text-center font-weight-bold txt-grey mt-2 mb-0 info-item-desc">4th International Multi-Topic Conference on Engineering and Science (IMCES), Universitas YARSI, Jakarta, Indonesia</p>
+                      <p class="text-center">
+                        <span class="badge badge-secondary m-1 bg-green txt-dark-grey">NLP</span>
+                        <span class="badge badge-secondary m-1 bg-green txt-dark-grey">Automata</span>
+                        <span class="badge badge-secondary m-1 bg-green txt-dark-grey">Literature Review</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="info-box">
+                    <h2 class="text-center txt-green mt-4">Computing the Linguistic-Based Cues of Fake News in the Philippines Towards its Detection</h2>
+                      <p class="text-center txt-grey mb-0">
+                        <a href="https://www.researchgate.net/publication/333230570_Computing_the_Linguistic-Based_Cues_of_Fake_News_in_the_Philippines_Towards_its_Detection" target="_blank"><i class="fab fa-researchgate m-2 fa-lg"></i></a>
+                      </p>
+                      <div class="info-item">
+                        <p class="text-center font-weight-bold txt-grey mt-2 mb-0 info-item-desc">9th International Conference on Web Intelligence, Mining and Semantics, Chung-Ang University, Seoul, South Korea</p>
+                        <p class="text-center">
+                          <span class="badge badge-secondary m-1 bg-green txt-dark-grey">NLP</span>
+                          <span class="badge badge-secondary m-1 bg-green txt-dark-grey">Jupyter</span>
+                          <span class="badge badge-secondary m-1 bg-green txt-dark-grey">Python</span>
+                          <span class="badge badge-secondary m-1 bg-green txt-dark-grey">BeautifulSoup</span>
+                          <span class="badge badge-secondary m-1 bg-green txt-dark-grey">NLTK</span>
+                          <span class="badge badge-secondary m-1 bg-green txt-dark-grey">Scipy</span>
+                          <span class="badge badge-secondary m-1 bg-green txt-dark-grey">Matplotlib</span>
+                          <span class="badge badge-secondary m-1 bg-green txt-dark-grey">Scikit-Learn</span>
+                          <span class="badge badge-secondary m-1 bg-green txt-dark-grey">Numpy</span>
+                          <span class="badge badge-secondary m-1 bg-green txt-dark-grey">Feature Engineering</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="info-box">
+                      <h2 class="text-center txt-green mt-4">Deep Rapping : Character Level Neural Models for Automated Rap Lyrics Composition</h2>
+                      <p class="text-center txt-grey mb-0">
+                        <a href="https://www.researchgate.net/publication/332877990_Deep_Rapping_Character_Level_Neural_Models_for_Automated_Rap_Lyrics_Composition" target="_blank"><i class="fab fa-researchgate m-2 fa-lg"></i></a>
+                      </p>
+                      <div class="info-item">
+                        <p class="text-center font-weight-bold txt-grey mt-2 mb-0 info-item-desc">2018 - 6th International Conference on Recent Trends in Computer Science and Electronics, University of Hawaii, Hawaii, USA</p>
+                        <p class="text-center">
+                          <span class="badge badge-secondary m-1 bg-green txt-dark-grey">NLP</span>
+                          <span class="badge badge-secondary m-1 bg-green txt-dark-grey">Jupyter</span>
+                          <span class="badge badge-secondary m-1 bg-green txt-dark-grey">Python</span>
+                          <span class="badge badge-secondary m-1 bg-green txt-dark-grey">BeautifulSoup</span>
+                          <span class="badge badge-secondary m-1 bg-green txt-dark-grey">NLTK</span>
+                          <span class="badge badge-secondary m-1 bg-green txt-dark-grey">Scipy</span>
+                          <span class="badge badge-secondary m-1 bg-green txt-dark-grey">Matplotlib</span>
+                          <span class="badge badge-secondary m-1 bg-green txt-dark-grey">Keras</span>
+                          <span class="badge badge-secondary m-1 bg-green txt-dark-grey">Numpy</span>
+                          <span class="badge badge-secondary m-1 bg-green txt-dark-grey">Feature Engineering</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+
+              <a class="carousel-control-prev" href="#publikationCarouselIndicator" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#publikationCarouselIndicator" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfeuille" class="container-titel-links">
+        <div class="container-titel">
+          <div class="titel-kasten">
+            <img class="kreis-animation" src="./assets/images/rollen_kreis.svg" alt="Rolling Circle"/>
+            <img class="titel-ikone" src="./assets/images/Portefeuille_Ikone.svg" alt="Portfolio Icon"/>
+          </div>
+          <h4 lang="de" class="font-weight-bold mt-2">Portefeuille</h4>
+          <h4 lang="en" class="font-weight-bold mt-2">Portfolio</h4>
+        </div>
+
+        <div class="container-content bg-grey-op-095">
+          <div class="container-date">
+            <div class="blog-slider">
+              <div class="blog-slider__wrp swiper-wrapper">
+
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="./assets/images/fakenewsportfolio.png" alt="Fake News Portfolio">
+                  </div>
+                  <div class="blog-slider__content">
+                    <h2 class="text-center txt-green mt-4">Fake News Detection using Linguistic Cues</h2>
+                    <p lang="de" class="text-center txt-grey mt-2 mb-0 info-item-desc">
+                      Eine NLP-gesteuerte Webseite, die anhand von Sprachmerkmalen, Lesbarkeitswerten, Stimmung und kognitiven Analysen zwischen glaubwürdigen und nicht glaubwürdigen Nachrichten auf den Philippinen unterscheidet.
+                    </p>
+                    <p lang="en" class="text-center txt-grey mt-2 mb-0 info-item-desc">
+                      An NLP-driven web application that computes the linguistic features, readability, sentiment and other semantic properties of news in the Philippines and use these as machine learning features to discern credible news.
+                    </p>
+                    <p class="text-center">
+                    <p class="text-center txt-grey mb-0">
+                      <a href="https://github.com/aaroncarlfernandez/FakeNewsPhilippines" target="_blank"><i class="fab fa-github m-2 fa-lg"></i></a>
+                      <a href="http://fakenewsphilippines.herokuapp.com" target="_blank"><i class="fas fa-external-link-square-alt m-2 fa-lg"></i></a>
+                    </p>
+                    <div class="info-item">
+                      <p class="text-center font-weight-bold txt-grey mt-2 mb-0 info-item-desc"></p>
+                      <p class="text-center">
+                        <span class="badge badge-secondary m-1 bg-green txt-dark-grey">Python</span>
+                        <span class="badge badge-secondary m-1 bg-green txt-dark-grey">Flask Framework</span>
+                        <span class="badge badge-secondary m-1 bg-green txt-dark-grey">HTML5</span>
+                        <span class="badge badge-secondary m-1 bg-green txt-dark-grey">CSS3</span>
+                        <span class="badge badge-secondary m-1 bg-green txt-dark-grey">Bootstrap</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="./assets/images/c++.jpg" alt="Drag N Drop C Portfolio">
+                  </div>
+                  <div class="blog-slider__content">
+                    <h2 class="text-center txt-green mt-4">Drag 'N Drop C</h2>
+                    <p lang="de" class="text-center txt-grey mt-2 mb-0 info-item-desc">
+                      Ein visualler Platform, um auf C zu programmieren. Dies ist für mein Masters studium gemacht.
+                    </p>
+                    <p lang="en" class="text-center txt-grey mt-2 mb-0 info-item-desc">
+                      A drag-and-drop C programming platform, which I did as one of my projects during my Masters.
+                    </p>
+                    <p class="text-center">
+                    <p class="text-center txt-grey mb-0">
+                      <a href="https://github.com/aaroncarlfernandez/CS221_FP" target="_blank"><i class="fab fa-github m-2 fa-lg"></i></a>
+                      <a href="https://dragndropc.herokuapp.com/" target="_blank"><i class="fas fa-external-link-square-alt m-2 fa-lg"></i></a>
+                    </p>
+                    <div class="info-item">
+                      <p class="text-center font-weight-bold txt-grey mt-2 mb-0 info-item-desc"></p>
+                      <p class="text-center">
+                        <span class="badge badge-secondary m-1 bg-green txt-dark-grey">PHP</span>
+                        <span class="badge badge-secondary m-1 bg-green txt-dark-grey">HTML5</span>
+                        <span class="badge badge-secondary m-1 bg-green txt-dark-grey">CSS3</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="./assets/images/Sprich!!.JPG" alt="Sprich!! Portfolio">
+                  </div>
+                  <div class="blog-slider__content">
+                    <h2 class="text-center txt-green mt-4">Sprich!!</h2>
+                    <p lang="de" class="text-center txt-grey mt-2 mb-0 info-item-desc">
+                      Sprich!! ist ein deutschprachiges AI, das wie ein Tandem-Partner funktionert. Es ist derzeit noch in der Entwicklung.
+                    </p>
+                    <p lang="en" class="text-center txt-grey mt-2 mb-0 info-item-desc">
+                      Sprich!! is a german-speaking AI that functions as a Tandem-partner for german learners. It is still currently in development.
+                    </p>
+                    <p class="text-center">
+                    <p class="text-center txt-grey mb-0">
+                    </p>
+                    <div class="info-item">
+                      <p class="text-center font-weight-bold txt-grey mt-2 mb-0 info-item-desc"></p>
+                      <p class="text-center">
+                        <span class="badge badge-secondary m-1 bg-green txt-dark-grey">NLP</span>
+                        <span class="badge badge-secondary m-1 bg-green txt-dark-grey">Jupyter</span>
+                        <span class="badge badge-secondary m-1 bg-green txt-dark-grey">Python</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                            
+              </div>
+              <div class="blog-slider__pagination"></div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="kontakte">
+        <div class="container-contact bg-grey flex-center container-çontact-neu">
+        	<div class="container-date">
+        		<div class="date-box text-center">
+        			<div class="contact">
+	                  <form id="form">
+	                    <legend lang="de" class="header">Magst, was du siehst? Schreib mir mal!</legend>
+	                    <legend lang="en" class="header">Like what you see? Let me know!</legend>
+	                    <input type="hidden" name="contact_number">
+	                    <fieldset>
+	                      <label class="fa fa-user" aria-hidden="true"></label>
+	                      <input lang="de" type="text" placeholder="dein Name..." name="name-input-de" id="name-input-de"/>
+	                      <input lang="en" type="text" placeholder="Your name..." name="name-input-en" id="name-input-en"/>
+	                    </fieldset>
+	                    <fieldset>
+	                      <label class="fa fa-envelope" aria-hidden="true"></label>
+	                      <input lang="de" type="email" placeholder="deine Email..." name="email-input-de" id="email-input-de"/>
+	                      <input lang="en" type="email" placeholder="Your email..."  name="email-input-en" id="email-input-en"/>
+	                    </fieldset>
+	                    <fieldset>
+	                      <label class="fa fa-comment" aria-hidden="true" name="message"></label>
+	                      <textarea lang="de" placeholder="deine Nachricht..." name="message-input-de" id="message-input-de"></textarea>
+	                      <textarea lang="en" placeholder="Your Message..." name="message-input-en" id="message-input-en"></textarea>
+	                    </fieldset>
+	                    <fieldset class="center-fieldset mt-4">
+	                      <button lang="de" type="submit" id="btn-submit-de" disabled="disabled">Senden</button>
+	                      <button lang="en" type="submit" id="btn-submit-en" disabled="disabled">Send</button>
+	                    </fieldset>
+	                  </form>
+	                </div>
+
+	                <div class="message-stat mb-4">
+
+	                  <div class="animation">
+	                    <div class="i-mail">
+	                      <div class="mail-anim"></div>
+	                    </div>
+	                    <div class="line"></div>
+	                      <div class="i-success">
+	                        <div class="success-anim"></div>
+	                      </div>
+	                  </div>
+
+	                  <div class="message text-center lang-de">
+	                    Danke, dein Nachricht wurden erfolgreich geschickt hatten!
+	                  </div>
+
+	                  <div class="message text-center lang-en">
+	                    Thank you, your message was sent successfully!
+	                  </div>
+
+	        		</div>
+
+	        		<h5 class="font-weight-bold txt-green">E-mail</h5>
+                	<a class="badge badge-light mb-4" href="mailto:aaronfernandez1990@gmail.com">aaronfernandez1990@gmail.com</a>
+
+                	<h5 lang="de" class="font-weight-bold txt-green">Soziale Netzwerke</h5>
+	                <h5 lang="en" class="font-weight-bold txt-green">Socials</h5>
+	                
+	                <span>
+	                  <a href="https://ph.linkedin.com/in/aaron-carl-fernandez-msc-1989b984" target="_blank"><i class="fab fa-linkedin m-3 fa-2x"></i></a>
+	                  <a href="https://github.com/aaroncarlfernandez" target="_blank"><i class="fab fa-github m-3 fa-2x"></i></a>
+	                  <a href="https://gitlab.com/aaronfernandez1990" target="_blank"><i class="fab fa-gitlab m-3 fa-2x"></i></a>
+	                  <a href="https://www.researchgate.net/profile/Aaron-Carl-Fernandez" target="_blank"><i class="fab fa-researchgate m-3 fa-2x"></i></a>
+	                      
+	                </span>
+        		
+        		</div>
+        	</div>
+   		 </div>
+
+        <div class="container-interest">
+          <p>
+            <span class="text-center">Aaron Carl Fernandez @ 2021</span>
+          </p>
+        </div>
+
+      </section>
+ 
+    </div>
+  </div>
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+
+    <!-- Full Version of JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+    <!-- Custom Javascript -->
+    <script type="text/javascript" src="./assets/js/csp1.js"></script>
+
+    <!-- Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7trQrMWVhG869xNLuZWr4WQxULZ475Hk&callback=initMap&libraries=&v=weekly" async></script>
+
+  </body>
 </html>
